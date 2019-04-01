@@ -1,0 +1,6 @@
+(1) touch .filename
+    ls -a
+(2) mkdir -p /c/Users/unmesh/these/folders/are/just/for/fun
+(3) 18
+(4) echo -n "test" > fun
+    echo  "another test" > fun
