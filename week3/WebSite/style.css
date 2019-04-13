@@ -1,0 +1,173 @@
+
+.main {
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto,sans-serif;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+  
+
+li a:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+
+
+Header {
+    background-image: url("https://www.thinkwithgoogle.com/_qs/images/kITY-9Ne9jiSkd-nlZ9YTgZhRn0=/34371/fill-1440x432%7Cjpegquality-85/tms-hero3_1.jpg") ;
+    padding: 15px;
+    margin:15px;
+}
+
+.text2 {
+    float:right;
+    color:blue;
+}
+
+
+.Section2 {
+    background-color: rgb(228, 230, 231);
+    padding: 15px;
+    margin:15px;      
+}
+
+footer {
+    background-color: #3367d6;
+    padding: 30px 0px 10px;
+    height:300px;
+
+
+}
+
+.box{
+    transition: box-shadow .3s;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin:15px;
+}
+.box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.Section2 .box123 {
+    display:flex; 
+    align-content:center;
+}
+
+.Section2 .box456 {
+    display:flex; 
+    align-content:center;
+}
+
+.Section2 p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.Section3 .columns123 {
+    display:flex; 
+    justify-content: space-around;
+    width: 60%;
+    padding: 15px;
+    margin:15px;
+
+
+
+}
+
+.Section3 .category_boxes{
+    display:flex; 
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    margin:15px;
+}
+
+.button{
+    background-color: rgb(17, 0, 255); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      
+}
+
+div.category_boxes .box {
+    width: 80%;
+    background-color: white;
+   
+  }
+  
+div.textcontainer {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+.Section2 .boxes .box{
+    background-color: white;
+}
+
+.Section2 .boxes p{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+h1{
+    font-size:39px;
+    font-weight:300;
+    height:100px;
+    line-height:50.7px;
+}
+
+h2{
+    font-size:31px;
+    margin:31px 0px 30px;
+    color:white;
+}
+h3{
+    font-size:27px;
+    font-weight:300;
+}
+
+footer .button{
+    color:rgb(17, 0, 255);
+    background-color: white;
+}
+
+.tools{
+    align-content: center;
+}
+
+.columns{
+    font-size: 20px;
+    -ms-high-contrast-adjust: 9.63;
+}
+
+.learnmore {
+    color:blue;
+}
